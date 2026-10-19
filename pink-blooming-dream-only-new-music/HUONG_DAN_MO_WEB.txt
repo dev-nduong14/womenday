@@ -1,0 +1,10 @@
+PINK BLOOMING DREAM 20/10 - BAN DA SUA LOI NEN HONG TRANG
+
+1) GIAI NEN file ZIP, KHONG mo index.html ngay trong file ZIP.
+2) Vao thu muc pink-blooming-dream, bam dup chuot vao index.html.
+3) Man hinh se co hop qua va nut Bat dau kham pha.
+4) Khi nhan nut Bat dau kham pha, nhac se bat dau phat.
+5) De dang GitHub Pages: chi upload NOI DUNG cua thu muc pink-blooming-dream (index.html va assets/ o cung cap).
+
+File da duoc doi sang JavaScript thong thuong, khong can mo server local.
+Neu loi: Ctrl+F5, kiem tra co thu muc assets o canh index.html.

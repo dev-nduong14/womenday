@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ffe8f2">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Pink Blooming Dream – món quà hoạt hình tương tác nhân Ngày Phụ nữ Việt Nam 20/10. Một khu vườn hoa, những lời chúc và thật nhiều yêu thương.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pink Blooming Dream 🌸 | Happy Women's Day 20/10">
+  <meta property="og:description" content="Một điều dễ thương đang chờ bạn... Mở món quà nhỏ này nhé! 🎀">
+  <meta property="og:locale" content="vi_VN">
+  <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Pink Blooming Dream 🌸 · Ngày Phụ nữ Việt Nam 20/10</title>
+</head>
+<body>
+ <div id="app">
+  <canvas id="petal-canvas" aria-hidden="true"></canvas>
+  <header id="site-header" class="site-header" aria-label="Điều khiển website"></header>
+  <main id="scene-root" aria-label="Trải nghiệm 20 tháng 10">
+    <section class="startup-fallback" aria-label="Mở đầu">
+      <span class="startup-flower" aria-hidden="true">🌸</span>
+      <p class="startup-eyebrow">PINK BLOOMING DREAM · 20/10</p>
+      <h1>Một điều dễ thương đang chờ bạn...</h1>
+      <p>Nếu màn hình này không tự chuyển sang hộp quà, hãy kiểm tra bạn đã giải nén đầy đủ cả thư mục <strong>assets</strong>.</p>
+    </section>
+  </main>
+  <div id="scene-transition" class="scene-transition" aria-hidden="true"></div>
+  <footer id="scene-footer" class="scene-footer"></footer>
+  <div id="modal-layer" class="modal-layer"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <input class="visually-hidden" type="file" id="gallery-file-input" multiple accept="image/png,image/jpeg,image/webp,image/gif" aria-label="Tải ảnh để xem thử trong album">
+ </div>
+ <noscript>Trang web cần JavaScript để hiển thị các phân cảnh hoạt hình. Hãy bật JavaScript để trải nghiệm món quà.</noscript>
+ <!-- Classic scripts are intentionally used so that double-clicking index.html works
+      over file:// as well as on GitHub Pages. Keep the following order. -->
+ <script src="./assets/js/content.js"></script>
+ <script src="./assets/js/illustrations.js"></script>
+ <script src="./assets/js/scenes.js"></script>
+ <script src="./assets/js/particles.js"></script>
+ <script src="./assets/js/audio.js"></script>
+ <script src="./assets/js/app.js"></script>
+</body>
+</html>

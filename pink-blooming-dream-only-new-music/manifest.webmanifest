@@ -1,0 +1,10 @@
+{
+  "name": "Pink Blooming Dream · 20/10",
+  "short_name": "Pink Bloom",
+  "description": "Món quà 20/10 tương tác",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fff6fa",
+  "theme_color": "#ffe8f2",
+  "icons": [{"src":"./assets/images/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
